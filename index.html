@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ff4fb3" />
+  <title>For Leena 💗</title>
+
+  <!-- Pink heart website logo / favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23ffe1f1'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='38'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23ffe1f1'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='38'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E" />
+
+  <!-- Cache-busting version so GitHub Pages loads the new files -->
+  <link rel="stylesheet" href="style.css?v=working-final-1" />
+  <script defer src="script.js?v=working-final-1"></script>
+</head>
+<body>
+  <main class="app">
+    <header class="top-bar">
+      <div class="logo" aria-label="website logo">💗</div>
+      <div class="progress" id="progressText">1 / 7</div>
+    </header>
+
+    <!-- Screen 1 -->
+    <section class="screen active light" data-step="0">
+      <div class="card">
+        <div class="decor">🎀 ✨ 💗</div>
+        <h1>Happy Birthday 🎀</h1>
+
+        <p class="lead">Wishing you a birthday as wonderful as you are 💗</p>
+        <p>Some birthdays deserve more than a basic text ✨</p>
+        <p>So here’s a tiny, dramatic, slightly unnecessary website made just for you 🎀</p>
+        <p>You are going to have an amazing year ahead, because now you got me into your life. Clearly, blessings are increasing 🌸</p>
+        <p>May Allah bless you with ease, happiness, protection, and the kind of beauty that keeps causing problems politely 🌼</p>
+        <p>Even when you call yourself a red flag ❤️‍🔥</p>
+        <p>I couldn’t wish you properly in Houston, so I’ll make it up when I see you 😉</p>
+
+        <button class="main-btn" type="button" data-next>Continue, birthday girl ✨</button>
+      </div>
+    </section>
+
+    <!-- Screen 2 -->
+    <section class="screen dark" data-step="1">
+      <div class="card dark-card">
+        <div class="word-stage" id="wordStage">
+          <div class="word-cloud" id="wordCloud"></div>
+          <p class="word-hint">A few words loading for Miss Therapist... 🎀</p>
+        </div>
+
+        <div class="note-content" id="screenTwoContent">
+          <div class="decor">🎀 💗 ✨</div>
+          <h2>A few words for you 🎀</h2>
+
+          <figure class="cat-card">
+            <img src="cat-throne.png" alt="A cute cat sitting on a dramatic throne" />
+            <figcaption>This reminded me of you somehow... cute, dramatic, and slightly dangerous ❤️‍🔥</figcaption>
+          </figure>
+
+          <p>There are a lot of little things about you that stand out — your humor, your music taste, your food taste, and those random dumb thoughts that somehow make sense ✨</p>
+          <p>But I’ll admit one thing: I cannot compete with your flirting. You acted shy at first, but clearly there was a hidden menace sitting there the whole time 😉</p>
+          <p>When I first saw you, I thought you were this cute, innocent girl. Then your actual personality came out and honestly, I was not prepared 🎀</p>
+          <p>Also yes, I called you “sister” that day. My bad. I was clearly malfunctioning 💗</p>
+
+          <button class="main-btn" type="button" data-next>Okay, keep going ✨</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screen 3 -->
+    <section class="screen light" data-step="2">
+      <div class="card">
+        <div class="decor">🌸 💗 ✨</div>
+        <h2>Since I missed the day...</h2>
+        <p>Since I couldn’t be there for your first birthday since we met, I still want to make it up properly 💗</p>
+        <p>I hate Houston for stealing that moment from me, but I’ll forgive it for now 🌸</p>
+        <p>We barely get chances to meet, so when we do, it should feel a little special ✨</p>
+        <p class="lead">I’ll plan something. You just choose the vibe 🎀</p>
+        <button class="main-btn" type="button" data-next>Fine, show me the plan ✨</button>
+      </div>
+    </section>
+
+    <!-- Screen 4 -->
+    <section class="screen dark" data-step="3">
+      <div class="card dark-card">
+        <div class="decor">🖤 🎀 ✨</div>
+        <h2>Before we continue...</h2>
+        <p>A few very serious rules for the day, troublemaker 🎀</p>
+        <p class="hint" id="termsHint">Open both cards first, troublemaker 💗</p>
+
+        <div class="reveal-grid">
+          <button class="reveal-card" type="button" data-card="dos">
+            <span class="card-title">DO’S ✨</span>
+            <span class="card-tap">Tap to read</span>
+            <span class="card-hidden">
+              We can do whatever we want.<br />
+              No restrictions.<br />
+              Mostly.<br />
+              (as long as you don’t cause any physical harm to me)
+            </span>
+          </button>
+
+          <button class="reveal-card" type="button" data-card="donts">
+            <span class="card-title">DON’TS 🌙</span>
+            <span class="card-tap">Tap to read</span>
+            <span class="card-hidden">
+              Do not bring up anything I told you the day we first met.<br /><br />
+              Especially the sister thing.<br /><br />
+              Do not bring up the matcha conversation.<br /><br />
+              You are gonna get three passes to call me boy that day. And if the day goes well, you may get unlimited passes for the night.
+            </span>
+          </button>
+        </div>
+
+        <button class="main-btn disabled" id="termsNext" type="button" data-next disabled>I accept the terms 🎀</button>
+      </div>
+    </section>
+
+    <!-- Screen 5 -->
+    <section class="screen light" data-step="4">
+      <div class="card options-card">
+        <div class="decor">💗 ✨ 🎀</div>
+        <h2>What do you want?</h2>
+        <p>I’m a little feminist myself, so I’m allowing you to have an opinion 😉</p>
+        <p>Choose carefully ✨</p>
+        <p class="lead">I’ll still handle the plan 🎀</p>
+
+        <div class="quote-box">
+          <p>“If you commit to this ride, there’s no going back.” ❤️‍🔥</p>
+          <span>(Love In The Sky — The Weeknd)</span>
+        </div>
+
+        <h3>What should the day include? 🌸</h3>
+        <p class="small-line">Pick whatever sounds good.</p>
+        <div class="choice-grid" data-choice-group="plan">
+          <button class="option-card" type="button" data-value="Beach sunset + rooftop 🌅">Beach sunset + rooftop 🌅</button>
+          <button class="option-card" type="button" data-value="Chicago Riverwalk + fireworks maybe 🌃 ✨">Chicago Riverwalk + fireworks maybe ✨</button>
+          <button class="option-card" type="button" data-value="Something cute and cozy ☁️">Something cute and cozy ☁️</button>
+          <button class="option-card" type="button" data-value="Surprise me, but make it worth it 💞">Surprise me, but make it worth it 💞</button>
+          <button class="option-card" type="button" data-value="Or maybe all (if your tiny cute feet can keep up)">Or maybe all, if your tiny cute feet can keep up 🎀</button>
+        </div>
+
+        <div class="food-note">
+          <p>Dinner and dessert are already confirmed 💗</p>
+          <p>Now choose the cuisine like a girl with very important opinions 😉</p>
+        </div>
+
+        <h3>Food mood 🌶️</h3>
+        <p class="small-line">Pick one or multiple.</p>
+        <div class="choice-grid" data-choice-group="food">
+          <button class="option-card" type="button" data-value="Italian">Italian</button>
+          <button class="option-card" type="button" data-value="Desi">Desi</button>
+          <button class="option-card" type="button" data-value="Mediterranean">Mediterranean</button>
+          <button class="option-card" type="button" data-value="You Decide">You Decide</button>
+          <button class="option-card" type="button" data-value="I'm picky, ask me first">I’m picky, ask me first</button>
+        </div>
+
+        <label class="textarea-label" for="preferences">Any allergies, preferences, restrictions, or things you would like to do from your end? 🎀</label>
+        <textarea id="preferences" placeholder="Allergies, food restrictions, places you want, things you hate, secret requests, literally anything..."></textarea>
+        <p class="small-line">Cause I’m in for anything you like 💗</p>
+        <button class="main-btn" type="button" data-next>Lock my choices ✨</button>
+      </div>
+    </section>
+
+    <!-- Screen 6 -->
+    <section class="screen dark" data-step="5">
+      <div class="card dark-card">
+        <div class="decor">💌 🎀 ✨</div>
+        <h2>One last thing, troublemaker</h2>
+        <p>I know you have amazing writing skills and a dangerously unfair sense of humor 💗</p>
+        <p>So bless me with some magical, holy words — or whatever your heart feels like writing ✨</p>
+        <p>No chasing.</p>
+        <p>No pressure.</p>
+        <p>No word limit.</p>
+
+        <label class="textarea-label dark-label" for="finalNote">Your note 💗</label>
+        <textarea id="finalNote" class="final-note-box" placeholder="Write demands, warnings, compliments, threats, cute nonsense, or a full dramatic paragraph if you feel generous..."></textarea>
+        <button class="main-btn" id="submitBtn" type="button">Send it to me ✨</button>
+        <p class="submit-status" id="submitStatus"></p>
+      </div>
+    </section>
+
+    <!-- Final screen -->
+    <section class="screen dark" data-step="6">
+      <div class="card dark-card final-card">
+        <div class="decor">☁️ ✨ 💗 🎀</div>
+        <h2>All sorted ☁️✨</h2>
+        <p>Your dramatic little answers made it safely 💗</p>
+        <p>I’ll handle the plan ✨</p>
+        <p>Just show up and be as cute as physically possible, and everything is fine 💗</p>
+        <p>And don’t treat me like your psychopath patient 😉</p>
+        <p>We can explore my Weeknd playlist as well, together ✨</p>
+        <p>Be a good girl and you will be rewarded or punished (whichever you like hehe *wink) ❤️‍🔥</p>
+        <p class="tiny-line">Therapist session continues in person ☁️✨</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
